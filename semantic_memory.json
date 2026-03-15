@@ -1,0 +1,39 @@
+{
+  "confirmations": {
+    "apple": {
+      "dessert category": 4,
+      "fruit inventory": 1,
+      "product brand": 1
+    },
+    "line band hai": {
+      "production line halted": 2,
+      "communication line issue": 1
+    },
+    "book the issue": {
+      "log a support ticket": 2,
+      "reserve a documented issue record": 1
+    }
+  },
+  "department_learning": {
+    "Food Operations": {
+      "apple": {
+        "dessert category": 2
+      }
+    },
+    "Manufacturing": {
+      "line band hai": {
+        "production line halted": 2
+      }
+    },
+    "IT": {
+      "book the issue": {
+        "log a support ticket": 2
+      }
+    },
+    "General": {
+      "apple": {
+        "dessert category": 1
+      }
+    }
+  }
+}

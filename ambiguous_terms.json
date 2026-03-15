@@ -1,0 +1,24 @@
+{
+  "apple": [
+    "fruit inventory",
+    "dessert category",
+    "product brand"
+  ],
+  "line band hai": [
+    "production line halted",
+    "communication line issue"
+  ],
+  "line": [
+    "production line",
+    "telephone line",
+    "internet line"
+  ],
+  "ticket": [
+    "support ticket",
+    "travel ticket"
+  ],
+  "book the issue": [
+    "log a support ticket",
+    "reserve a documented issue record"
+  ]
+}

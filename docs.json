@@ -1,0 +1,32 @@
+{
+  "general": {
+    "reset employee password": "Use the internal IT portal and click Reset Password.",
+    "create support ticket": "Log into ServiceDesk and create a new ticket.",
+    "book the issue": "To book the issue, log it as a support ticket in ServiceDesk with the affected module and severity.",
+    "expense reimbursement": "Submit expense claims through the Finance Portal within 30 days of purchase."
+  },
+  "contextual": {
+    "apple": {
+      "fruit inventory": "Apple inventory performance is stable this month with warehouse stock levels within target range.",
+      "dessert category": "Premium dessert category performance shows a 12% month-on-month increase in sales.",
+      "product brand": "Apple product brand performance indicates strong sales in enterprise device requests."
+    },
+    "line": {
+      "production line": "Production line status indicates the unit is halted pending maintenance clearance.",
+      "telephone line": "Telephone line status shows no active outage in the support center.",
+      "internet line": "Internet line monitoring reports intermittent connectivity in the operations wing."
+    },
+    "line band hai": {
+      "production line halted": "Production unit is currently paused due to a conveyor safety alert.",
+      "communication line issue": "Communication line incident has been routed to network operations for restoration."
+    },
+    "ticket": {
+      "support ticket": "Support ticket volume increased by 8% this week in the IT helpdesk queue.",
+      "travel ticket": "Travel ticket processing is active in the employee travel desk workflow."
+    },
+    "book the issue": {
+      "log a support ticket": "Issue has been interpreted as a support request. Please record it in ServiceDesk with impact details.",
+      "reserve a documented issue record": "Issue has been interpreted as an internal issue record reservation for audit follow-up."
+    }
+  }
+}

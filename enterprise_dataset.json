@@ -1,0 +1,507 @@
+{
+  "apple": [
+    "fruit inventory", 
+    "dessert category", 
+    "tech company product", 
+    "internal project"
+  ],
+  "line": [
+    "production line", 
+    "communication line", 
+    "customer support line"
+  ],
+  "issue": [
+    "support ticket", 
+    "book issue", 
+    "software bug"
+  ],
+  "server": [
+    "computer server", 
+    "restaurant server"
+  ],
+  "batch": [
+    "manufacturing batch", 
+    "data processing batch"
+  ],
+  "ticket": [
+    "support ticket", 
+    "travel ticket", 
+    "event ticket"
+  ],
+  "model": [
+    "machine learning model", 
+    "product model", 
+    "fashion model"
+  ],
+  "port": [
+    "network port", 
+    "shipping port", 
+    "software porting"
+  ],
+  "node": [
+    "network node", 
+    "blockchain node", 
+    "organizational node"
+  ],
+  "pipeline": [
+    "data pipeline", 
+    "CI/CD pipeline", 
+    "industrial pipeline"
+  ],
+  "table": [
+    "database table", 
+    "furniture table", 
+    "spreadsheet table"
+  ],
+  "cloud": [
+    "cloud computing", 
+    "weather cloud"
+  ],
+  "train": [
+    "machine learning training", 
+    "railway train"
+  ],
+  "file": [
+    "digital file", 
+    "physical file"
+  ],
+  "cluster": [
+    "server cluster", 
+    "data cluster", 
+    "organizational cluster"
+  ],
+  "agent": [
+    "AI agent", 
+    "sales agent", 
+    "customer service agent"
+  ],
+  "batch": [
+    "batch processing", 
+    "batch of goods"
+  ],
+  "log": [
+    "system log", 
+    "wood log"
+  ],
+  "monitor": [
+    "display monitor", 
+    "system monitor"
+  ],
+  "terminal": [
+    "command-line terminal", 
+    "airport terminal"
+  ],
+  "gateway": [
+    "network gateway", 
+    "payment gateway"
+  ],
+  "cache": [
+    "web cache", 
+    "hidden storage"
+  ],
+  "key": [
+    "encryption key", 
+    "physical key"
+  ],
+  "contract": [
+    "legal contract", 
+    "shrink or reduce in size"
+  ],
+  "charge": [
+    "financial charge", 
+    "electrical charge"
+  ],
+  "draft": [
+    "document draft", 
+    "air draft"
+  ],
+  "account": [
+    "financial account", 
+    "user account"
+  ],
+  "balance": [
+    "financial balance", 
+    "work-life balance"
+  ],
+  "bank": [
+    "financial bank", 
+    "river bank"
+  ],
+  "lead": [
+    "lead a project", 
+    "lead metal"
+  ],
+  "capital": [
+    "financial capital", 
+    "capital city"
+  ],
+  "interest": [
+    "financial interest", 
+    "personal interest"
+  ],
+  "currency": [
+    "money currency", 
+    "trend or relevance"
+  ],
+  "return": [
+    "investment return", 
+    "product return"
+  ],
+  "deposit": [
+    "bank deposit", 
+    "mineral deposit"
+  ],
+  "bond": [
+    "financial bond", 
+    "personal bond"
+  ],
+  "stock": [
+    "inventory stock", 
+    "stock market share"
+  ],
+  "order": [
+    "customer order", 
+    "sequence order"
+  ],
+  "margin": [
+    "profit margin", 
+    "page margin"
+  ],
+  "rate": [
+    "interest rate", 
+    "rate of occurrence"
+  ],
+  "call": [
+    "phone call", 
+    "stock market call option"
+  ],
+  "option": [
+    "stock option", 
+    "choice option"
+  ],
+  "reserve": [
+    "financial reserve", 
+    "reservation (booking)"
+  ],
+  "fund": [
+    "investment fund", 
+    "funding a project"
+  ],
+  "point": [
+    "data point", 
+    "point in a presentation"
+  ],
+  "draft": [
+    "draft version", 
+    "draft of air"
+  ],
+  "charge": [
+    "charge a fee", 
+    "charge a battery"
+  ],
+  "terminal": [
+    "airport terminal", 
+    "command terminal"
+  ],
+  "boot": [
+    "boot a system", 
+    "wear a boot"
+  ],
+  "script": [
+    "programming script", 
+    "movie script"
+  ],
+  "deck": [
+    "presentation deck", 
+    "deck of a ship"
+  ],
+  "stream": [
+    "data stream", 
+    "video stream", 
+    "water stream"
+  ],
+  "audit": [
+    "financial audit", 
+    "system audit"
+  ],
+  "report": [
+    "business report", 
+    "news report"
+  ],
+  "screen": [
+    "computer screen", 
+    "screen a candidate"
+  ],
+  "process": [
+    "business process", 
+    "legal process"
+  ],
+  "resource": [
+    "digital resource", 
+    "natural resource"
+  ],
+  "interface": [
+    "user interface", 
+    "hardware interface"
+  ],
+  "host": [
+    "host a server", 
+    "event host"
+  ],
+  "application": [
+    "software application", 
+    "job application"
+  ],
+  "block": [
+    "block of data", 
+    "city block"
+  ],
+  "execute": [
+    "execute a program", 
+    "execute a plan"
+  ],
+  "control": [
+    "control system", 
+    "quality control"
+  ],
+  "run": [
+    "run a program", 
+    "run a meeting"
+  ],
+  "batch": [
+    "batch processing", 
+    "batch of goods"
+  ],
+  "model": [
+    "AI model", 
+    "product model"
+  ],
+  "return": [
+    "function return", 
+    "product return"
+  ],
+  "event": [
+    "system event", 
+    "social event"
+  ],
+  "response": [
+    "API response", 
+    "email response"
+  ],
+  "state": [
+    "system state", 
+    "state (region)"
+  ],
+  "project": [
+    "work project", 
+    "project (forecast)"
+  ],
+  "capital": [
+    "capital city", 
+    "financial capital"
+  ],
+  "contract": [
+    "legal contract", 
+    "contract (shrink)"
+  ],
+  "agent": [
+    "AI agent", 
+    "sales agent"
+  ],
+  "bond": [
+    "financial bond", 
+    "bond (relationship)"
+  ],
+  "channel": [
+    "communication channel", 
+    "TV channel"
+  ],
+  "balance": [
+    "account balance", 
+    "physical balance"
+  ],
+  "rate": [
+    "interest rate", 
+    "speed rate"
+  ],
+  "transfer": [
+    "fund transfer", 
+    "transfer (move)"
+  ],
+  "pool": [
+    "resource pool", 
+    "swimming pool"
+  ],
+  "share": [
+    "stock share", 
+    "share a file"
+  ],
+  "index": [
+    "stock index", 
+    "database index"
+  ],
+  "protocol": [
+    "network protocol", 
+    "diplomatic protocol"
+  ],
+  "path": [
+    "file path", 
+    "career path"
+  ],
+  "range": [
+    "data range", 
+    "mountain range"
+  ],
+  "record": [
+    "database record", 
+    "record a video"
+  ],
+  "table": [
+    "database table", 
+    "furniture table"
+  ],
+  "load": [
+    "load data", 
+    "carry a load"
+  ],
+  "execute": [
+    "execute code", 
+    "execute a task"
+  ],
+  "route": [
+    "network route", 
+    "delivery route"
+  ],
+  "interface": [
+    "software interface", 
+    "human interface"
+  ],
+  "buffer": [
+    "memory buffer", 
+    "buffer time"
+  ],
+  "input": [
+    "user input", 
+    "electrical input"
+  ],
+  "output": [
+    "system output", 
+    "production output"
+  ],
+  "check": [
+    "check a process", 
+    "bank check"
+  ],
+  "update": [
+    "software update", 
+    "status update"
+  ],
+  "validate": [
+    "validate data", 
+    "validate an idea"
+  ],
+  "review": [
+    "code review", 
+    "performance review"
+  ],
+  "shift": [
+    "work shift", 
+    "shift (move)"
+  ],
+  "drive": [
+    "hard drive", 
+    "drive a car"
+  ],
+  "release": [
+    "software release", 
+    "release (let go)"
+  ],
+  "boot": [
+    "system boot", 
+    "wear a boot"
+  ],
+  "access": [
+    "data access", 
+    "access a building"
+  ],
+  "crash": [
+    "system crash", 
+    "car crash"
+  ],
+  "lock": [
+    "lock a file", 
+    "door lock"
+  ],
+  "key": [
+    "encryption key", 
+    "keyboard key"
+  ],
+  "map": [
+    "data mapping", 
+    "geographical map"
+  ],
+  "sink": [
+    "data sink", 
+    "kitchen sink"
+  ],
+  "watch": [
+    "watch a process", 
+    "wear a watch"
+  ],
+  "patch": [
+    "software patch", 
+    "patch of land"
+  ],
+  "roll": [
+    "roll back update", 
+    "roll a ball"
+  ],
+  "draft": [
+    "document draft", 
+    "draft (airflow)"
+  ],
+  "scale": [
+    "scale a system", 
+    "weighing scale"
+  ],
+  "install": [
+    "install software", 
+    "install equipment"
+  ],
+  "close": [
+    "close a deal", 
+    "close a window"
+  ],
+  "open": [
+    "open a file", 
+    "open a door"
+  ],
+  "copy": [
+    "copy a file", 
+    "make a physical copy"
+  ],
+  "cut": [
+    "cut text", 
+    "cut a rope"
+  ],
+  "paste": [
+    "paste text", 
+    "paste adhesive"
+  ],
+  "draw": [
+    "draw a diagram", 
+    "draw a weapon"
+  ],
+  "print": [
+    "print a document", 
+    "print money"
+  ],
+  "run": [
+    "run code", 
+    "run a race"
+  ],
+  "execute": [
+    "execute a command", 
+    "execute a plan"
+  ]
+}

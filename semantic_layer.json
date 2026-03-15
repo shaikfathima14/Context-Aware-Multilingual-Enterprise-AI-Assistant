@@ -1,0 +1,154 @@
+{
+  "departments": [
+    "General",
+    "Food Operations",
+    "Manufacturing",
+    "IT",
+    "Sales",
+    "Finance",
+    "R&D"
+  ],
+  "language_aliases": {
+    "ticket raise karo": "create support ticket",
+    "issue book karo": "book the issue",
+    "server down hai": "server outage",
+    "line band hai": "line band hai"
+  },
+  "term_profiles": {
+    "apple": {
+      "department_weights": {
+        "General": {
+          "dessert category": 0.1
+        },
+        "Food Operations": {
+          "dessert category": 1.0,
+          "fruit inventory": 0.6
+        },
+        "Sales": {
+          "product brand": 0.7,
+          "dessert category": 0.3
+        },
+        "R&D": {
+          "product brand": 0.5
+        }
+      },
+      "keyword_weights": {
+        "fruit inventory": [
+          "stock",
+          "inventory",
+          "warehouse"
+        ],
+        "dessert category": [
+          "dessert",
+          "premium",
+          "sales",
+          "performance",
+          "month"
+        ],
+        "product brand": [
+          "brand",
+          "device",
+          "sales",
+          "enterprise"
+        ]
+      }
+    },
+    "line": {
+      "department_weights": {
+        "Manufacturing": {
+          "production line": 1.0
+        },
+        "IT": {
+          "internet line": 0.7,
+          "telephone line": 0.4
+        }
+      },
+      "keyword_weights": {
+        "production line": [
+          "plant",
+          "machine",
+          "production",
+          "shutdown"
+        ],
+        "telephone line": [
+          "call",
+          "voice",
+          "extension"
+        ],
+        "internet line": [
+          "network",
+          "internet",
+          "connectivity"
+        ]
+      }
+    },
+    "line band hai": {
+      "department_weights": {
+        "Manufacturing": {
+          "production line halted": 1.1
+        },
+        "IT": {
+          "communication line issue": 0.9
+        }
+      },
+      "keyword_weights": {
+        "production line halted": [
+          "line",
+          "band",
+          "plant"
+        ],
+        "communication line issue": [
+          "network",
+          "voice",
+          "phone"
+        ]
+      }
+    },
+    "ticket": {
+      "department_weights": {
+        "IT": {
+          "support ticket": 0.9
+        },
+        "Finance": {
+          "travel ticket": 0.7
+        }
+      },
+      "keyword_weights": {
+        "support ticket": [
+          "issue",
+          "support",
+          "incident",
+          "servicedesk"
+        ],
+        "travel ticket": [
+          "travel",
+          "booking",
+          "trip"
+        ]
+      }
+    },
+    "book the issue": {
+      "department_weights": {
+        "IT": {
+          "log a support ticket": 1.0
+        },
+        "Finance": {
+          "reserve a documented issue record": 0.2
+        }
+      },
+      "keyword_weights": {
+        "log a support ticket": [
+          "issue",
+          "support",
+          "raise",
+          "bug"
+        ],
+        "reserve a documented issue record": [
+          "audit",
+          "reserve",
+          "record"
+        ]
+      }
+    }
+  }
+}
