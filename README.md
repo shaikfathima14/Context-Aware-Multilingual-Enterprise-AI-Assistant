@@ -1,159 +1,150 @@
-CONTEXT-AWARE MULTILINGUAL ENTERPRISE AI ASSISTANT
+# Context-Aware Multilingual Enterprise AI Assistant
 
-Project Overview
+## Project Overview
+The Context-Aware Multilingual Enterprise AI Assistant improves how artificial intelligence systems understand language in enterprise environments.
 
-The Context-Aware Multilingual Enterprise AI Assistant is designed to improve how artificial intelligence systems understand language in enterprise environments. In many organizations, words and phrases may have multiple meanings depending on the department, workflow, or business context.
+In organizations, many words have multiple meanings depending on the department, workflow, or business context. Traditional AI systems rely on general-world knowledge and often misinterpret enterprise-specific terminology.
 
-Traditional AI systems rely on general-world knowledge and often misinterpret enterprise-specific terminology. This project introduces an AI assistant that detects ambiguous terms in user queries and resolves them by asking clarification questions before generating responses.
+This project introduces an AI assistant that:
 
-The system also supports multilingual queries by translating mixed-language inputs into English before analyzing them.
+- Detects ambiguous words in user queries
+- Supports multilingual inputs
+- Uses an enterprise vocabulary dataset
+- Asks clarification questions before generating responses
 
-Problem Statement
+This ensures the AI generates accurate, context-aware responses.
+
+---
+
+# Problem Statement
 
 In enterprise environments, many words have multiple meanings depending on context.
 
 Example user query:
 
+```
 Show apple performance
+```
 
 Possible meanings:
 
-fruit inventory
-
-dessert category
-
-apple product
-
-internal project
+1. fruit inventory  
+2. dessert category  
+3. apple product  
+4. internal project  
 
 Similarly, multilingual queries such as:
 
+```
 line band hai
+```
 
 may refer to a halted production line rather than a communication line.
 
 Traditional AI systems fail in such situations because they interpret words based only on general language understanding rather than enterprise context.
 
-The challenge is to design an AI system that can detect ambiguous terms, understand multilingual input, request clarification, and provide accurate context-aware responses.
+---
 
-Proposed Solution
+# Proposed Solution
 
-The proposed system detects ambiguous words in user queries and resolves them using contextual clarification.
+The proposed system introduces a Context-Aware AI Assistant that resolves ambiguity through clarification.
 
-Workflow of the system:
+System Workflow:
 
-The user enters a query.
+1. User enters a query
+2. System translates multilingual input into English
+3. AI detects ambiguous words
+4. Words are checked against an enterprise vocabulary dataset
+5. AI asks the user to clarify the intended meaning
+6. The final response is generated based on the selected context
 
-The system translates multilingual input into English.
+This approach ensures accurate enterprise query interpretation.
 
-The query is analyzed to detect ambiguous terms.
+---
 
-Detected words are checked against an enterprise vocabulary dataset.
+# System Architecture
 
-The AI asks the user to clarify the intended meaning.
-
-The final response is generated based on the selected context.
-
-This ensures the AI system produces accurate responses tailored to enterprise environments.
-
-System Architecture
-
-User Query
-↓
-Multilingual Translation Module
-↓
-Ambiguity Detection Engine
-↓
-Enterprise Vocabulary Dataset
-↓
-Clarification Question Generator
-↓
+User Query  
+↓  
+Multilingual Translation Module  
+↓  
+Ambiguity Detection Engine  
+↓  
+Enterprise Vocabulary Dataset  
+↓  
+Clarification Question Generator  
+↓  
 Context-Aware Response
 
-Key Features
+---
 
-Ambiguity Detection
-The system identifies words with multiple meanings in enterprise contexts.
+# Key Features
 
-Multilingual Support
-The AI can process mixed-language queries and translate them automatically.
+### Ambiguity Detection
+The system identifies words that have multiple meanings in enterprise contexts.
 
-Enterprise Vocabulary Dataset
-The system uses a dataset containing ambiguous enterprise terms and their meanings.
+### Multilingual Support
+Handles mixed-language queries by automatically translating them into English.
 
-Interactive Clarification
-The AI asks follow-up questions instead of guessing the meaning.
+### Enterprise Vocabulary Dataset
+Uses a JSON dataset containing ambiguous enterprise terms and meanings.
 
-Chatbot Interface
-The system provides an interactive conversational interface using Gradio.
+### Interactive Clarification
+Instead of guessing the meaning, the AI asks the user for clarification.
 
-Technologies Used
+### Chatbot Interface
+Provides a conversational interface built using Gradio.
 
-Programming Language
-Python
+---
 
-Framework
-Gradio
+# Technologies Used
 
-Translation
-Google Translate API
+- Python
+- Gradio (Chatbot Interface)
+- Google Translate API
+- JSON Dataset
+- Google Colab
 
-Dataset
-JSON Enterprise Vocabulary Dataset
+---
 
-Development Environment
-Google Colab
-
-Example Interaction
+# Example Interaction
 
 User Query
 
+```
 Show apple performance
+```
 
 AI Response
 
+```
 I detected ambiguity in the word "apple".
 
 Possible meanings:
+1. fruit inventory
+2. dessert category
+3. apple product
+4. internal project
+```
 
-fruit inventory
+---
 
-dessert category
-
-apple product
-
-internal project
-
-Multilingual Example
-
-User Query
-
-line band hai
-
-AI Response
-
-Translated Input: line is closed
-
-Possible meanings:
-
-production line
-
-communication line
-
-Scalability
+# Scalability
 
 The system can scale across different enterprise environments by expanding the vocabulary dataset with new terms.
 
 It can be integrated with:
 
-Enterprise chatbots
-Customer support systems
-Knowledge management platforms
-Internal helpdesk automation
+- Enterprise chatbots
+- Customer support systems
+- Knowledge management platforms
+- Internal helpdesk automation
 
-Future versions may include integration with large language models, enterprise databases, and voice-based AI assistants.
+Future improvements may include integration with large language models, enterprise databases, and voice-based AI assistants.
 
-Conclusion
+---
+
+# Conclusion
 
 The Context-Aware Multilingual Enterprise AI Assistant demonstrates how AI systems can move beyond general language understanding to enterprise-specific semantic intelligence.
 
